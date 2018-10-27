@@ -1,4 +1,4 @@
-#Libraries
+# Libraries
 
 This project is delivered with a jupyter notebook, installed with miniconda.  The python environment is version 3.6, and the 
 notebook runs on my conda default environment that is somewhat bloated.. requirements.txt attached.  "Non-standard" libraries used:
@@ -11,7 +11,7 @@ notebook runs on my conda default environment that is somewhat bloated.. require
 - pandas
 - numpy
 
-#Motivation
+# Motivation
 
 This notebooks is part of a project in Udacity's Data Scientist Nanodegree.  The purpose is to get some experience with the CRISP-DM (Cross-industry standard process for data mining) cycle by:
 
@@ -39,7 +39,7 @@ The relationship between official real estate prices and Airbnb listing prices w
 
 Finally, my efforts to use machine learning to predict the price of listings did not give very good results.  If time permitted, I would have spent more time on feature selection/engineering and tuning the algorithms.
 
-#Files
+# Files
 
 - ./README.md - this file.
 - ./DataScience-PresentationProject.ipynb - Jupyter notebook containing all data wranling, analysis and ML code.
@@ -48,13 +48,13 @@ Finally, my efforts to use machine learning to predict the price of listings did
 - ./html/* - saved versions of folium maps.
 - ./img/* - saved images for the blog post
 
-#How to interact with this project.
+# How to interact with this project.
 
 * For non-techincal people - read the DataScience-PresentationProject-Blog.md
 * For techincal people - review the DataScience-PresentationProject.ipynb notebook.
 * To continue working - clone the repository, or start from scratch with the data in the ./data folder.
 
-#Licensing, Authors, Acknowledgements, etc.
+# Licensing, Authors, Acknowledgements, etc.
 
 Thanks to Udacity for supplying some of the code used in lectures.
 
