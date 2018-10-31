@@ -73,8 +73,8 @@ def index():
         {
             'data': [
                 Bar(
-                    x=categories,
-                    y=categories_count,
+                    x=categories_count,
+                    y=categories,
                     orientation='h'
                 )
             ],
@@ -82,10 +82,10 @@ def index():
             'layout': {
                 'title': 'Number of messages classified within each category',
                 'yaxis': {
-                    'title': "Count"
+                    'title': "Category"
                 },
                 'xaxis': {
-                    'title': "Category"
+                    'title': "Count"
                 }
             }
         }
