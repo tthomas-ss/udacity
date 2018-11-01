@@ -71,10 +71,6 @@ def build_model():
     Build a ML pipeline with a RandomForrestClassifier predictor.  The workspace is running on a single-CPU instance,
     and training takes forever.
 
-    Args:
-    train (bool) -- True if model is to be trained, else model will be loaded from disk.
-    model_filepath (str) -- Path to saved model, including filename.
-
     Returns:
     model (sklearn.model_selection._search.GridSearchCV) -- Pipeline with multi output random forest classifier.
     """
@@ -126,7 +122,7 @@ def save_model(model, model_filepath):
 
 
 def load_model(model_filepath):
-    """Load model (sklearn.pipeline.Pipeline) from model_filepath (str)."""
+    """Return saved model (sklearn.pipeline.Pipeline) from model_filepath (str)."""
     model = joblib.load(model_filepath)
     return model
 
