@@ -13,6 +13,7 @@ All submitted code is in ./submit/:
 * 04.CNN.ipynb
 * 05.GRU-Onedirectional.ipynb
 * 06.GRU.ipynb
+* 07.LSTM-Onedirectional.ipynb
 * 08.LSTM Final.ipynb
 * capstone_utils.py
 
